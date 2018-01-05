@@ -1,0 +1,965 @@
+/* ---- CSS RESET-----*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    line-height: 1em;
+    
+}
+
+body{
+    
+width: 100%;
+    max-width: 5120px;
+     font-family: 'Open Sans', sans-serif;
+    
+    background: -webkit-linear-gradient(left, white , #ebebeb); /* For Safari 5.1 to 6.0 */
+    color: #333;
+    line-height: 1.8;  
+
+}
+
+#landing{
+    
+    width: 100%;
+    height:1055px;
+    background-color: #000;
+
+}
+
+#landingarea{
+    
+    width: 50%;
+    height: 700px;
+    padding-top: 150px;
+    background-color: transparent;
+    margin: auto;
+    
+}
+
+#focal1{
+    margin-top: 50px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    float: left;
+    
+}
+
+#focalno1 {
+	width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #ff0000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal2{
+    margin-top: 50px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    border-color:  #f7931e;
+    float: left;
+    
+}
+
+#focalno2 {
+width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color:  #f7931e;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal3{
+    margin-top: 50px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    float: left;
+    
+}
+
+#focalno3 {
+width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #c8a2c8 ;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#elementselect{
+    
+    width: 100%;
+    height:730px;
+    margin-top: 50px;
+    background-color: transparent;
+}
+
+#elementlithium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #f5f5f5;
+    float: left;
+
+}
+
+#elementlithium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementsodium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementsodium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementpotassium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #f5f5f5;
+    float: right;
+}
+
+#elementpotassium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementrubidium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementrubidium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementcaesium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+#elementcaesium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+
+#elementfrancium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: right;
+}
+
+#elementfrancium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding-top: 5%;
+}
+
+    h2{
+    color: #003da5;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+        text-align: center;
+    padding-top: 50px;
+    margin-left:25%;
+    margin-right:25%;
+    line-height: 30px;
+    color: #000;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 25%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+h3.element{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 12.5%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    line-height: 35px;
+    color: #000;
+}
+
+p{
+    font-size: 1.25em;
+    margin-top: 25px;
+    margin-left:15%;
+    margin-right:15%;
+    color: #000;
+    line-height: 30px;
+}
+
+/* ---- LINKS-----*/
+
+a{
+    
+    color: #333;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    color: #003da5;
+    border-bottom: 1px dotted;
+    
+}
+
+a:link{
+    
+    border-bottom: 1px;
+    text-decoration: none;
+}
+
+img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 25%;;
+}
+
+/* ---- NAV -----*/
+
+
+nav{
+    
+    width: 50%;
+    height: 50px;
+background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 40px #eee;
+    position: absolute;
+    border-color: #f5f5f5;
+    
+}
+
+nav ul{
+    width:100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    color: #003da5;
+    
+}
+    
+    /* ---- LAPTOP-----*/
+
+@media (max-width: 100em){
+    
+    body{
+    
+width: 100%;
+    max-width: 5120px;
+     font-family: 'Open Sans', sans-serif;
+background: -webkit-linear-gradient(left, white , #ebebeb); /* For Safari 5.1 to 6.0 */
+    color: #f5f5f5;
+    line-height: 1.8;  
+
+}
+
+#landing{
+    
+    width: 100%;
+    height: 748px;
+    background-color: transparent;
+        background-image: url("../images/homebg.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#landingarea{
+    
+    width: 50%;
+    height: 700px;
+    padding-top: 150px;
+    background-color: transparent;
+    margin: auto;
+    
+}
+
+#focal1{
+    margin-top: 250px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    float: left;
+    
+}
+
+#focalno1 {
+	width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #ff0000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal2{
+    margin-top: 250px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    border-color:  #f7931e;
+    float: left;
+    
+}
+
+#focalno2 {
+width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color:  #f7931e;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal3{
+    margin-top: 250px;
+    width: 33.33%;
+        height: 250px;
+    background-color: transparent;
+    float: left;
+    
+}
+
+#focalno3 {
+width: 150px;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #c8a2c8 ;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#elementselect{
+    
+    width: 100%;
+    height:730px;
+    margin-top: 250px;
+    background-color: transparent;
+}
+
+#elementlithium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #f5f5f5;
+    float: left;
+
+}
+
+#elementlithium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementsodium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementsodium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementpotassium{
+    width: 33.33%;
+    height: 300px;
+    margin-top: 75px;
+    background-color: #f5f5f5;
+    float: right;
+}
+
+#elementpotassium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementrubidium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementrubidium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementcaesium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+#elementcaesium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+
+#elementfrancium{
+    width: 33.33%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: right;
+}
+
+#elementfrancium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+
+img{
+    margin: auto;
+    display: block;
+    padding-top: 5%;
+}
+
+     h2{
+    color: #003da5;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+        text-align: center;
+    padding-top: 50px;
+    margin-left:25%;
+    margin-right:25%;
+    line-height: 30px;
+    color: #000;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 25%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+h3.element{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 25%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    line-height: 35px;
+    color: #f5f5f5;
+}
+
+p{
+    font-size: 1.25em;
+    margin-top: 25px;
+    margin-left:15%;
+    margin-right:15%;
+    color: #000;
+    line-height: 30px;
+}
+
+/* ---- LINKS-----*/
+
+a{
+    
+    color: #333;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    
+    color: #003da5;
+    border-bottom: 1px dotted;
+    
+}
+
+a:link{
+    
+    border-bottom: 1px;
+    text-decoration: none;
+}
+
+img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 25%;;
+}
+
+/* ---- NAV -----*/
+
+
+nav{
+    
+    width: 50%;
+    height: 50px;
+background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 40px #eee;
+    position: absolute;
+    border-color: #f5f5f5;
+    
+}
+
+nav ul{
+    width:100%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    }
+
+nav a:hover{
+    
+    border-bottom: none;
+    color: #003da5;
+    
+}
+    
+    }
+    
+    /* ---- TABLET-----*/
+
+@media (max-width: 50em){
+    
+    body{
+        
+        background-color: #fff;
+        margin: auto;
+        width: 100%;
+        font-size: 110%;
+    }
+    
+    #landing{
+    
+    width: 100%;
+    height: 748px;
+    background-color: fcfcfc;
+        background-image: url("../images/homebgres.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#landingarea{
+    
+    width: 100%;
+    height: 600px;
+    padding-top: 150px;
+    background-color: transparent;
+    margin: auto;
+    
+}
+
+#focal1{
+    margin-top: 225px;
+    width: 80%;
+    height: 250px;
+    margin-left:10%;
+    margin-right:10%;
+        
+    background-color: transparent;
+    display: block;
+    float: left;
+    
+}
+
+#focalno1 {
+	width: 25%;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #ff0000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal2{
+    margin-top: 50px;
+    width: 80%;
+        height: 250px;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: transparent;
+    border-color:  #f7931e;
+    float: left;
+    
+}
+
+#focalno2 {
+width: 25%;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color:  #f7931e;
+    border-width: 1px;
+    border-style: solid;
+}
+
+#focal3{
+    margin-top: 50px;
+    width: 80%;
+        height: 250px;
+    margin-left:10%;
+    margin-right:10%;
+    background-color: transparent;
+    float: left;
+    
+}
+
+#focalno3 {
+width: 25%;
+	height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5%;
+	background-color: transparent;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: #c8a2c8 ;
+    border-width: 1px;
+    border-style: solid;
+}
+    
+    #elementselect{
+    
+    width: 100%;
+    height:730px;
+    margin-top: 900px;
+    background-color: transparent;
+}
+
+#elementlithium{
+    width: 50%;
+    height: 300px;
+    background-color: #f5f5f5;
+    float: left;
+
+}
+
+#elementlithium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementsodium{
+    width: 50%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementsodium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#ff0000;
+}
+
+#elementpotassium{
+    width: 50%;
+    height: 300px;
+    margin-top: 0px;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+#elementpotassium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementrubidium{
+    width: 50%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementrubidium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#f7931e;
+}
+
+#elementcaesium{
+    width: 50%;
+    height: 300px;
+    background-color: #f5f5f5;
+    float: left;
+}
+
+#elementcaesium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+
+#elementfrancium{
+    width: 50%;
+    height: 300px;
+    background-color: #fcfcfc;
+    float: left;
+}
+
+#elementfrancium:hover{
+     -webkit-transition: all 1s ease-out;
+   -moz-transition: all 1s ease-out;
+   -o-transition: all 1s ease-out;
+   -ms-transition: all 1s ease-out;
+   transition: all 1s ease-out;
+    background-color:#c8a2c8;
+}
+    
+         h2{
+    color: #003da5;
+        font-family: 'Open Sans', sans-serif;
+    font-size: 3.5em;
+        text-align: center;
+    padding-top: 50px;
+    margin-left:25%;
+    margin-right:25%;
+    line-height: 70px;
+    color: #000;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 25%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+h3.element{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    margin-top: 25%;
+    text-align: center;
+    line-height: 75px;
+    color: #000;
+}
+
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    margin-top: 5%;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    line-height: 35px;
+    color: #f5f5f5;
+}
+
+p{
+    font-size: 1.25em;
+    margin-top: 25px;
+    margin-left:15%;
+    margin-right:15%;
+    text-align: center;
+    color: #000;
+    line-height: 30px;
+}
+    
+    }
