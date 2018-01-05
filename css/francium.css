@@ -25,7 +25,7 @@ width: 100%;
     width: 100%;
     height:500px;
     background-color: aqua;
-background-image: url("../images/potassium_headerimage.png")  ;
+background-image: url("../img/potassium_headerimage.png")  ;
       background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -256,7 +256,7 @@ width: 100%;
     width: 100%;
     height:500px;
     background-color: aqua;
-background-image: url("../images/sodium_headerimage.png")  ;
+background-image: url("../img/sodium_headerimage.png")  ;
       background-repeat: no-repeat;
 }
 
@@ -485,7 +485,7 @@ nav a:hover{
     width: 100%;
     height:500px;
     background-color: aqua;
-background-image: url("../images/potassium_headerimage_tablet.png")  ;
+background-image: url("../img/potassium_headerimage_tablet.png")  ;
       background-repeat: no-repeat;
 }
 
