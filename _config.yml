@@ -1,9 +1,9 @@
 # Site settings
-title: Student
+title: Alkali Metals
 email: hiya@email.com
 url: http://127.0.0.1:4000/
 description: "I am a student"
-baseurl: 'rgrantwylie_elements_website'
+baseurl: 'https://rgrantwylie_elements_website'
 
 # Footer settings
 footer: Student | Copyright 2017 
@@ -13,7 +13,7 @@ social:
   - title: Instagram
     url: https://#
   - title: Github
-    url: https://#
+    url: https://rgrantwylie_elements_website
   - title: Twitter
     url: https://#
 
